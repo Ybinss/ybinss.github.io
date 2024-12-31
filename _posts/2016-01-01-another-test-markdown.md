@@ -298,15 +298,11 @@ CAF file (".caf") :
 
 Spotify Podcast:
 
-![](https://open.spotify.com/episode/2sXXGexCXPhGsdf9l99Q73?si=717c6671590745b3)
+![](https://open.spotify.com/episode/31AxcwYdjsFtStds5JVWbT)
 
 ## Special media links
 
-Local video file (".webm"):
-
-![]({{ "/assets/videos/devstories.webm" | relative_url }})
-
-Video with custom thumbnail:
+![]( {{ "/assets/devstories.webm" | relative_url }} )
 
 [![w:1100](https://i.imgur.com/bc9HOJU.png)](https://www.youtube.com/watch?v=kCHGDRHZ4eU)
 

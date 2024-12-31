@@ -1,5 +1,5 @@
-$dark-background-color: #0e0e0e !default;
-$dark-text-color: #b0b0b0 !default;
+$dark-background-color:       #0e0e0e !default;
+$dark-text-color: #bbb !default;
 
 html[data-theme="dark"]  {
   &[data-scroll-status='top'] {
@@ -89,7 +89,7 @@ html[data-theme="dark"]  {
   }
 
   .left-vsplit:before {
-    background-color: #505050;
+    background-color: #9a9a9a;
   }
 
   .page-banner {
@@ -102,11 +102,17 @@ html[data-theme="dark"]  {
 
   .pagination {
     .post-link {
-      color: #bbb;
+      color: $dark-text-color;
     }
 
-    .post-excerpt {
-      color: $grey-color;
+    .post-title {
+      a:visited:after {
+        background-color: $dark-background-color;
+      }
+
+      a:after {
+        color: $dark-background-color;
+      }
     }
 
     .post-list {
@@ -125,6 +131,14 @@ html[data-theme="dark"]  {
       a {
         color: #ddd;
       }
+
+      a:visited:after {
+        background-color: $dark-background-color;
+      }
+
+      a:after {
+        color: $dark-background-color;
+      }
     }
   }
 
@@ -137,20 +151,24 @@ html[data-theme="dark"]  {
       img:not(.emoji):not([raw]) {
         background-color: #ffffff33;
       }
+    }
+  }
 
-      hr {
-        background-color: #555;
-      }
+  .post-related {
+    & > *:first-child {
+      color: #d7d7d7;
     }
 
-    .post-related {
-      & > *:first-child {
-        color: #d7d7d7;
-      }
+    a:visited:after {
+      background-color: $dark-background-color;
+    }
 
-      a:hover {
-        color: #aaa;
-      }
+    a:after {
+      color: $dark-background-color;
+    }
+
+    a:hover {
+      color: #aaa;
     }
   }
 
@@ -195,15 +213,6 @@ html[data-theme="dark"]  {
         }
       }
     }
-  }
-
-  a .post-badges .post-badge {
-    color: $dark-background-color !important;
-  }
-
-  a:visited .post-badges .post-badge.badge-new {
-    display: none;
-    background-color: $dark-background-color;
   }
 }
 

@@ -11,12 +11,13 @@
     font-size: $base-font-size * 1.5;
     margin-bottom: 14px;
     font-weight: 600;
+    color: #222;
   }
 
   .post-menu-content {
     ul {
       border-left: 1px solid #e9ecef;
-      $indent: divide($base-font-size, 4);
+      $indent: $base-font-size / 4;
       $active-bgcolor: #ecebec;
 
       @for $i from 2 to 7 {
@@ -38,7 +39,7 @@
 
         &:hover {
           text-decoration: none;
-          color: lighten($text-color, 30%)!important;
+          color: lighten($text-color, 20%)!important;
         }
       }
 
