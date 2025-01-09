@@ -2,7 +2,7 @@
 layout: post
 title:  "[Review] Deep learning"
 subtitle: Review Article
-date:   2025-01-09
+categories: Paper
 tags: [deep learning]
 ---
 
