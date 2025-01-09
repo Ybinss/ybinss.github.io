@@ -2,7 +2,7 @@
 layout: post
 title:  "[Review] Deep learning"
 subtitle: Review Article
-categories: Paper
+categories: Review
 tags: [deep learning]
 ---
 
