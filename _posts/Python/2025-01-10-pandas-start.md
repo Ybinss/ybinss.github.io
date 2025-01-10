@@ -12,7 +12,7 @@ categories: Python
 <details>
     <summary> Reference </summary>
         
-<img src = "image/fig1.png" width = 30%>
+<img src = "./image/fig1.png" width = 30%>
 </details>
 
 # I. 판다스가 왜 필요할까?
