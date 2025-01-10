@@ -12,7 +12,7 @@ categories: Python
 <details>
     <summary> Reference </summary>
         
-<img src = "./image/fig1.png" width = 30%>
+<img width = 30% alt = "fig1" src = "https://github.com/user-attachments/assets/59dee25b-108e-4f51-9c93-7425b38f9351" />
 </details>
 
 # I. 판다스가 왜 필요할까?
