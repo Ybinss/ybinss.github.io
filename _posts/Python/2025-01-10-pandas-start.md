@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "[Python] Test" 
-subtitle: 테스트 글쓰기
+title:  "[Python] 판다스 시작하기" 
+subtitle: 판다스 입문
 tags: [pandas]
 categories: Python
 ---
