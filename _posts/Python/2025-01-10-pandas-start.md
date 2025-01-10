@@ -9,7 +9,7 @@ categories: Python
 **By Yong Bin Kwon, with Comments by Jung In Seo**
 </span>
 
-<details>
+<details open>
     <summary> Reference </summary>
         
 <img width = "30%" alt = "fig1" src = "https://github.com/user-attachments/assets/59dee25b-108e-4f51-9c93-7425b38f9351" />
