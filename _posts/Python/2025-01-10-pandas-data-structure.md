@@ -15,6 +15,15 @@ categories: Python
 <img width = "30%" alt = "fig1" src = "https://github.com/user-attachments/assets/59dee25b-108e-4f51-9c93-7425b38f9351" />
 </details>
 
+<details >
+    <summary> Versions </summary>
+ <pre>       
+    Python = 3.11.11
+    numpy = 1.24.0
+    pandas = 2.2.3
+ </pre>   
+</details>
+
 # I. 나만의 데이터 만들기
 
 ## I-1. 시리즈와 데이터프레임 만들기
