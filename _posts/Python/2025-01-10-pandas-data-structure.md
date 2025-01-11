@@ -24,6 +24,7 @@ categories: Python
  </pre>   
 </details>
 
+
 # I. 나만의 데이터 만들기
 
 ## I-1. 시리즈와 데이터프레임 만들기
