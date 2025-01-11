@@ -105,7 +105,7 @@ print(scientists)
     Rosaline Franklin       Chemist  1920-07-25  1958-04-16   37
     William Gosset     Statistician  1876-06-13  1937-10-16   61
 
-
+  
 # II. 시리즈 다루기
 
 ### 시리즈 추출하기
