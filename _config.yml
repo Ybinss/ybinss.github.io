@@ -210,11 +210,9 @@ night_mode: "auto"
 # highlighter: none
 markdown: kramdown
 kramdown:
-  input: GFM
-  header_offset: 1
-  syntax_highlighter_opts:
-    block:
-        line_numbers: true
+  input: GFM 
+  header_offset: 1 
+  
 
 plugins:
   - jekyll-feed
