@@ -15,6 +15,15 @@ categories: Python
 <img width = "30%" alt = "fig1" src = "https://github.com/user-attachments/assets/59dee25b-108e-4f51-9c93-7425b38f9351" />
 </details>
 
+<details >
+    <summary> Versions </summary>
+ <pre>       
+    Python = 3.11.11
+    numpy = 1.24.0
+    pandas = 2.2.3
+ </pre>   
+</details>
+
 # I. 판다스가 왜 필요할까?
 - 판다스 : 데이터 분석용 오픈소스 파이썬 라이브러리
     - **데이터프레임(Datafram)** 과 **시리즈(Series)** 라는 두 가지 새로운 자료형을 제공하며, 스프레드시트 형태의 데이터를 불러와 빠르게 조작,정렬,병합할 수 있다.
