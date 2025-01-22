@@ -211,6 +211,10 @@ night_mode: "auto"
 markdown: kramdown
 kramdown:
   input: GFM
+  header_offset: 1
+  syntax_highlighter_opts:
+    block:
+        line_numbers: true
 
 plugins:
   - jekyll-feed
