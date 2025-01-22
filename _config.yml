@@ -209,9 +209,8 @@ night_mode: "auto"
 # Build settings
 # highlighter: none
 markdown: kramdown
-kmarkdown:
+kramdown:
   input: GFM
-  header_offset: 1
 
 plugins:
   - jekyll-feed
