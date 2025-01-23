@@ -70,5 +70,5 @@ categories: Python
 - `df.resample()` : 시간 데이터를 재샘플링
 - `df.dt.year`, `df.dt.month`, `df.dt.day` : 날짜/시간 데이터를 연도, 월, 일 단위로 분리
 
-참고 자료 : https://wikidocs.net/258503
+참고 자료 : <https://wikidocs.net/258503>
 
