@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "[SQL] LIKE 연산자" 
+# subtitle: programmers
+tags: [MySQL]
+categories: SQL
+---
+
 # LIKE 연산자란?
 SQL의 `LIKE` 연산자는 특정 패턴과 일치하는 문자열을 검색할 때 사용하는 연산자이다.   
 보통 `WHERE`절에서 문자열 패턴 검색을 수행할 때 활용된다.
@@ -5,7 +13,7 @@ SQL의 `LIKE` 연산자는 특정 패턴과 일치하는 문자열을 검색할 
 ## I. 문법
 
 
-```python
+```sql
 SELECT 컬럼명 FROM 테이블명  
 WHERE 컬럼명 LIKE '검색패턴';
 ```
@@ -24,7 +32,7 @@ WHERE 컬럼명 LIKE '검색패턴';
 (1) 특정 문자열로 시작하는 경우
 
 
-```python
+```sql
 SELECT * FROM USERS  
 WHERE NAME LIKE '김%';
 ```
@@ -35,7 +43,7 @@ WHERE NAME LIKE '김%';
 (2) 특정 문자열로 끝나는 경우
 
 
-```python
+```sql
 SELECT * FROM USERS  
 WHERE NAME LIKE '%철수';
 ```
@@ -46,7 +54,7 @@ WHERE NAME LIKE '%철수';
 (3) 특정 문자열을 포함하는 경우
 
 
-```python
+```sql
 SELECT * FROM USERS  
 WHERE NAME LIKE '%철%';
 ```
@@ -57,7 +65,7 @@ WHERE NAME LIKE '%철%';
 (4) 특정 길이의 문자열 검색(`'_'`사용)
 
 
-```python
+```sql
 SELECT * FROM USERS  
 WHERE NAME LIKE '김_수';
 ```
@@ -68,7 +76,7 @@ WHERE NAME LIKE '김_수';
 (5) 여러 조건을 조합하여 검색
 
 
-```python
+```sql
 SELECT * FROM USERS  
 WHERE NAME LIKE '박%' OR NAME LIKE '%희';
 ```
@@ -95,6 +103,6 @@ WHERE NAME LIKE '박%' OR NAME LIKE '%희';
 - SQL `LIKE`연산자는 문자열 검색에 유용하지만, 성능을 고려하여 적절하게 사용하는 것이 중요!!
 
 
-```python
+```sql
 
 ```
