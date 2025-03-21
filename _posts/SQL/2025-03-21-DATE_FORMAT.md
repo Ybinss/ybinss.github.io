@@ -6,7 +6,7 @@ tags: [MySQL]
 categories: SQL
 ---
 
-# `DATE_FORMAT`함수 정리
+# DATE_FORMAT 함수 정리
 `DATE_FORMAT`함수는 날짜(DateTime) 데이터를 원하는 형식으로 변환할 때 사용한다.
 
 ## I. 기본 문법
