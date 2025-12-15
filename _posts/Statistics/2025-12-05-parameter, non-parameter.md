@@ -88,7 +88,7 @@ categories: Statistics
     + "틀을 정하지 않고 데이터 모양을 그대로 본다"
     + 데이터 하나하나의 상대적 위치와 관계를 활용한다 
 
-<img width="100%" alt="Image" src="img/모수적, 비모수적.png" />
+<img width="100%" alt="Image" src="./img/모수적_비모수적.png" />
 
 # IV. 비교 정리
 
