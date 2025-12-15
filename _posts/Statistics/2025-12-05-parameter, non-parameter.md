@@ -88,7 +88,7 @@ categories: Statistics
     + "틀을 정하지 않고 데이터 모양을 그대로 본다"
     + 데이터 하나하나의 상대적 위치와 관계를 활용한다 
 
-<img width="100%" alt="Image" src="https://github.com/user-attachments/assets/f09f1d72-22e6-49ba-af7c-b3b0a935582e" />
+<img width="100%" alt="Image" src="img/모수적, 비모수적.png" />
 
 # IV. 비교 정리
 
@@ -102,6 +102,3 @@ categories: Statistics
 |예시|t-test, 선형회귀|wilcoxon test, k-NN|
 
 
-```python
-
-```
