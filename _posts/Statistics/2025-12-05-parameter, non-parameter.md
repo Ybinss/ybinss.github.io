@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "[Statistics] 모수적 방법 vs 비모수적 방법" 
+#subtitle: 
+tags: [Statistics, Machine_Learning]
+categories: Statistics
+---
+
 # I. 모수적(parametric) 방법
 
 > *데이터가 특정한 분포를 따른다고 가정하고, 그 분포를 몇 개의 모수(parameter)로 요약하는 방법이다.*
