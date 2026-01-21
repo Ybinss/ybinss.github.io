@@ -2,7 +2,7 @@
 layout: post
 title:  "[SQL] LV.2 분기별 분화된 대장균의 개체 수 구하기(String, Date)" 
 subtitle: programmers
-tags: [MySQL]
+tags: [Oracle]
 categories: SQL
 ---
 <img width="100%" alt="Image" src="https://github.com/user-attachments/assets/576a3402-5d36-4141-8911-03a2e9c1a015" />

@@ -2,7 +2,7 @@
 layout: post
 title:  "[SQL] LV.3 조회수가 가장 많은 중고거래 게시판의 첨부파일 조회하기(String, Date)" 
 subtitle: programmers
-tags: [MySQL]
+tags: [Oracle]
 categories: SQL
 ---
 
