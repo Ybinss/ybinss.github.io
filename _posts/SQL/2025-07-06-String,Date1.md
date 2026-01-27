@@ -22,32 +22,40 @@ categories: SQL
 
 
 ```sql
-SELECT CAR_ID , ROUND(AVG(DATEDIFF(END_DATE, START_DATE) + 1), 1) AS AVERAGE_DURATION
+SELECT CAR_ID , TO_CHAR(ROUND(AVG((END_DATE - START_DATE) + 1), 1), 'FM9999.0') AS AVERAGE_DURATION
 FROM CAR_RENTAL_COMPANY_RENTAL_HISTORY
 GROUP BY CAR_ID
-HAVING AVERAGE_DURATION >= 7
-ORDER BY AVERAGE_DURATION DESC, CAR_ID DESC
+HAVING ROUND(AVG((END_DATE - START_DATE) + 1), 1) >= 7
+ORDER BY TO_NUMBER(AVERAGE_DURATION) DESC, CAR_ID DESC
 ```
 
 ## 쿼리 설명
 
 
 ```sql
-ROUND(AVG(DATEDIFF(END_DATE, START_DATE) + 1), 1)
+(END_DATE - START_DATE) + 1)
 ```
 
-- `DATEDIFF(END_DATE, START_DATE)`
-    + `END_DATE`와 `START_DATE`의 일수 차이를 계산
-- `+ 1`
-    + 대여일을 포함하기 위해 1을 더함
-    + 예) 2022-09-01 ~ 2022-09-01 → 1일 대여
-- `ROUND(..., 1)`
-    + 평균값을 소수점 첫째 자리까지 반올림
+- Oracle에서 `END_DATE - START_DATE`는 일(day) 단위 차이를 숫자로 반환한다.
+    + 예) 9/10 - 9/01 = 9
+- `+ 1`을 하는 이유는 시작일과 종료일을 포함한 "포함 일수"로 만들기 위해서다. 
 
 
 ```sql
-HAVING AVERAGE_DURATION >= 7
+TO_CHAR(ROUND(AVG((END_DATE - START_DATE) + 1), 1), 'FM9999.0')
 ```
 
-- 평균 대여 기간이 7일 이상인 자동차만 결과에 포함
-- `HAVING`은 그룹화된 집계 결과에 조건을 걸 때 사용
+- `TO_CHAR(..., 'FM9999.0')
+    + `FM`(Fill Mode): 불필요한 공백 제거
+        * `FM`이 없으면 자릿수 맞추려고 앞에 공백이 생길 수 있다.
+        * 예) 7 -> 7.0
+    + `'9999.0'`: 정수부 최대 4자리 + 소수 1자리 형태   
+
+
+```sql
+HAVING ROUND(AVG((END_DATE - START_DATE) + 1), 1) >= 7
+```
+
+- `WHERE`는 개별 행을 필터링
+- `HAVING`은 **그룹 집계 결과**를 필터링
+- 평균이 7일 이상인 차량만 필터링
