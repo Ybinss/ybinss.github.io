@@ -2,7 +2,7 @@
 layout: post
 title:  "[SQL] LV.3 대여 기록이 존재하는 자동차 리스트 구하기(String, Date)" 
 subtitle: programmers
-tags: [Oracle]
+tags: [MYSQL]
 categories: SQL
 ---
 

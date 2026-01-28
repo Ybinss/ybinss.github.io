@@ -2,7 +2,7 @@
 layout: post
 title:  "[SQL] LV.1 특정 옵션이 포함된 자동차 리스트 구하기(String, Date)" 
 subtitle: programmers
-tags: [Oracle]
+tags: [MYSQL]
 categories: SQL
 ---
 <img width="100%" alt="Image" src="https://github.com/user-attachments/assets/576a3402-5d36-4141-8911-03a2e9c1a015" />

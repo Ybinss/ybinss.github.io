@@ -2,7 +2,7 @@
 layout: post
 title:  "[SQL] LV.3 조건에 맞는 사용자 정보 조회하기(String, Date)" 
 subtitle: programmers
-tags: [Oracle]
+tags: [MYSQL]
 categories: SQL
 ---
 
